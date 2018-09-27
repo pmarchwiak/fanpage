@@ -18,10 +18,44 @@ a {
 
 .rightPane {
     height: 100%;
-    background-image: url("https://2centsworthofsports.files.wordpress.com/2013/01/jordan.jpg");
+    /*background-image: url("https://2centsworthofsports.files.wordpress.com/2013/01/jordan.jpg");*/
 }
 
 .social-image{
     width: 30px;
     margin: 15px;
 }
+
+.header {
+    display: flex;
+    justify-content: center;
+}
+.navbar {
+    display: flex;
+    justify-content: space-around;
+}
+.footer {
+    display: flex;
+    justify-content: space-around;
+}
+.gallery {
+    display: flex;
+    justify-content: space-between;
+}
+.thumbnail-image {
+    width: 200px;
+}
+
+.aboutMain {
+    display: flex;
+}
+.leftPane {
+    width: 50%;
+}
+.rightPane {
+    width: 50%;
+}
+/*.social {*/
+/*    display: flex;*/
+/*    justify-content: space-around;*/
+/*}*/
